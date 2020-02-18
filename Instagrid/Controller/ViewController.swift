@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         imagePicker.delegate = self
         imagePicker.allowsEditing = true
         imagePicker.sourceType = .photoLibrary
+        
         // Swipe Gesture configuration at start
         swipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(gridViewSwiped))
         guard let swipeGestureRecognizer = swipeGestureRecognizer else { return }
@@ -108,6 +109,7 @@ class ViewController: UIViewController {
     @IBOutlet private var plusButtons: [UIButton]!
     @IBOutlet private var contentViews: [UIView]!
     @IBOutlet private var patternButtons: [UIButton]!
+    
     // MARK: - Actions
     
     @IBAction private func patternButtonTapped(_ sender: UIButton) {

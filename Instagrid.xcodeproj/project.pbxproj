@@ -15,11 +15,22 @@
 		488F3B98230B199800663763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488F3B97230B199800663763 /* Assets.xcassets */; };
 		488F3B9B230B199800663763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488F3B99230B199800663763 /* LaunchScreen.storyboard */; };
 		488F3BA4230B1A8C00663763 /* UIView+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488F3BA3230B1A8C00663763 /* UIView+image.swift */; };
+		48AAA1A823FB28030030F28F /* GridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AAA1A723FB28030030F28F /* GridTest.swift */; };
+		48FDFC2C23E02C5A000671CF /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48FDFC2A23E02C5A000671CF /* Delm-Medium.otf */; };
+		48FDFC2D23E02C5A000671CF /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48FDFC2B23E02C5A000671CF /* ThirstySoftRegular.otf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		48AAA1A223FB279B0030F28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488F3B85230B199500663763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488F3B8C230B199500663763;
+			remoteInfo = Instagrid;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		483DE035230BE4B20003A2DF /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Delm-Medium.otf"; path = "Instagrid/Delm-Medium.otf"; sourceTree = SOURCE_ROOT; };
-		483DE036230BE4B20003A2DF /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThirstySoftRegular.otf; path = Instagrid/ThirstySoftRegular.otf; sourceTree = SOURCE_ROOT; };
 		483DE039230BE6030003A2DF /* UIImagePickerController+rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+rotate.swift"; sourceTree = "<group>"; };
 		483DE03C230BE6970003A2DF /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		488F3B8D230B199500663763 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +41,22 @@
 		488F3B9A230B199800663763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		488F3B9C230B199800663763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488F3BA3230B1A8C00663763 /* UIView+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+image.swift"; sourceTree = "<group>"; };
+		48AAA19D23FB279B0030F28F /* InstagridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AAA1A123FB279B0030F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AAA1A723FB28030030F28F /* GridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTest.swift; sourceTree = "<group>"; };
+		48FDFC2A23E02C5A000671CF /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		48FDFC2B23E02C5A000671CF /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		488F3B8A230B199500663763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AAA19A23FB279B0030F28F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,8 +85,8 @@
 		483DE034230BE45D0003A2DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				483DE035230BE4B20003A2DF /* Delm-Medium.otf */,
-				483DE036230BE4B20003A2DF /* ThirstySoftRegular.otf */,
+				48FDFC2A23E02C5A000671CF /* Delm-Medium.otf */,
+				48FDFC2B23E02C5A000671CF /* ThirstySoftRegular.otf */,
 				488F3B90230B199500663763 /* AppDelegate.swift */,
 				488F3B97230B199800663763 /* Assets.xcassets */,
 				488F3B99230B199800663763 /* LaunchScreen.storyboard */,
@@ -84,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				488F3B8F230B199500663763 /* Instagrid */,
+				48AAA19E23FB279B0030F28F /* InstagridTests */,
 				488F3B8E230B199500663763 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				488F3B8D230B199500663763 /* Instagrid.app */,
+				48AAA19D23FB279B0030F28F /* InstagridTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +142,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		48AAA19E23FB279B0030F28F /* InstagridTests */ = {
+			isa = PBXGroup;
+			children = (
+				48AAA1A123FB279B0030F28F /* Info.plist */,
+				48AAA1A723FB28030030F28F /* GridTest.swift */,
+			);
+			path = InstagridTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,18 +171,41 @@
 			productReference = 488F3B8D230B199500663763 /* Instagrid.app */;
 			productType = "com.apple.product-type.application";
 		};
+		48AAA19C23FB279B0030F28F /* InstagridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AAA1A623FB279B0030F28F /* Build configuration list for PBXNativeTarget "InstagridTests" */;
+			buildPhases = (
+				48AAA19923FB279B0030F28F /* Sources */,
+				48AAA19A23FB279B0030F28F /* Frameworks */,
+				48AAA19B23FB279B0030F28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48AAA1A323FB279B0030F28F /* PBXTargetDependency */,
+			);
+			name = InstagridTests;
+			productName = InstagridTests;
+			productReference = 48AAA19D23FB279B0030F28F /* InstagridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		488F3B85230B199500663763 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Concreteflowers;
 				TargetAttributes = {
 					488F3B8C230B199500663763 = {
 						CreatedOnToolsVersion = 10.3;
+					};
+					48AAA19C23FB279B0030F28F = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 488F3B8C230B199500663763;
 					};
 				};
 			};
@@ -166,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				488F3B8C230B199500663763 /* Instagrid */,
+				48AAA19C23FB279B0030F28F /* InstagridTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +235,16 @@
 			files = (
 				488F3B9B230B199800663763 /* LaunchScreen.storyboard in Resources */,
 				488F3B98230B199800663763 /* Assets.xcassets in Resources */,
+				48FDFC2D23E02C5A000671CF /* ThirstySoftRegular.otf in Resources */,
+				48FDFC2C23E02C5A000671CF /* Delm-Medium.otf in Resources */,
 				488F3B96230B199500663763 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AAA19B23FB279B0030F28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +263,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48AAA19923FB279B0030F28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AAA1A823FB28030030F28F /* GridTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48AAA1A323FB279B0030F28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488F3B8C230B199500663763 /* Instagrid */;
+			targetProxy = 48AAA1A223FB279B0030F28F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		488F3B94230B199500663763 /* Main.storyboard */ = {
@@ -370,6 +453,51 @@
 			};
 			name = Release;
 		};
+		48AAA1A423FB279B0030F28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6686VY9W88;
+				INFOPLIST_FILE = InstagridTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.concreteflowers.InstagridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrid.app/Instagrid";
+			};
+			name = Debug;
+		};
+		48AAA1A523FB279B0030F28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6686VY9W88;
+				INFOPLIST_FILE = InstagridTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.concreteflowers.InstagridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrid.app/Instagrid";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +515,15 @@
 			buildConfigurations = (
 				488F3BA0230B199800663763 /* Debug */,
 				488F3BA1230B199800663763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AAA1A623FB279B0030F28F /* Build configuration list for PBXNativeTarget "InstagridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AAA1A423FB279B0030F28F /* Debug */,
+				48AAA1A523FB279B0030F28F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
